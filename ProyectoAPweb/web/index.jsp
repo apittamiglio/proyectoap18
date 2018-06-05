@@ -25,7 +25,7 @@
             </form>
            <br>
             <%
-                if(msg!=null) out.println("Error: " + msg);
+                if(msg!=null) out.println("Error:" + msg);
             %>
         </h1>
     </body>
